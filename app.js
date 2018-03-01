@@ -41,7 +41,7 @@ $(document).ready(function () {
       }else{
         delete activeCells[rowColString]
       }
-      debugger
+
       // console.log(`click ${rowColString}`)
     }
 
