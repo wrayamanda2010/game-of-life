@@ -1,0 +1,25 @@
+{
+  "name": "x-conways-gol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicialink/x-conways-gol.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alicialink/x-conways-gol/issues"
+  },
+  "homepage": "https://github.com/alicialink/x-conways-gol#readme",
+  "dependencies": {
+    "eslint": "^4.18.1",
+    "jquery": "^3.3.1",
+    "lite-server": "^2.3.0"
+  }
+}

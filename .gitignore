@@ -57,3 +57,12 @@ typings/
 # dotenv environment variables file
 .env
 
+# macOS junk
+.DS_Store
+
+# IntelliJ junk
+.idea
+
+# No locks
+package-lock.json
+yarn.lock
