@@ -6,6 +6,12 @@ $(document).ready(function () {
   // GRID DATA STORAGE
   let activeCells = {}
 
+  // INTERVAL TIMER ID
+  let intervalID = null
+
+  // INTERVAL PERIOD
+  const intervalPeriodMS = 1000
+
   // SET INITIAL UI STATE
   $('#stop-tick-btn').attr('disabled', true)
 
@@ -127,6 +133,8 @@ $(document).ready(function () {
     $('#start-tick-btn').removeAttr('disabled')
 
     $('#stop-tick-btn').attr('disabled', true)
+
+    clearInterval(intervalID)
   }
 
   function oneTickBtnClick(event) {
@@ -144,6 +152,8 @@ $(document).ready(function () {
     $('#start-tick-btn').attr('disabled', true)
 
     $('#stop-tick-btn').removeAttr('disabled')
+
+    intervalID = setInterval(oneTick, intervalPeriodMS)
   }
 
   function clearBtnClick(event) {
