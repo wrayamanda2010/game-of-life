@@ -42,7 +42,6 @@ $(document).ready(function () {
         delete activeCells[rowColString]
       }
 
-      // console.log(`click ${rowColString}`)
     }
 
   // BUTTON EVENT HANDLERS
